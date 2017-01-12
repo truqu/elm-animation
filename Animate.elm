@@ -1,4 +1,4 @@
-module Animation exposing (Animation, animation, static, animate, duration, speed, delay, ease, from, to, undo, retarget, getStart, getDuration, getSpeed, getDelay, getEase, getFrom, getTo, equals, velocity, timeElapsed, timeRemaining, isScheduled, isRunning, isDone)
+module Animate exposing (Animation, animation, static, animate, duration, speed, delay, ease, from, to, undo, retarget, getStart, getDuration, getSpeed, getDelay, getEase, getFrom, getTo, equals, velocity, timeElapsed, timeRemaining, isScheduled, isRunning, isDone)
 
 {-| A library for animating between two `Float` values. For example, animate a panel's width from 100px to 300px over 2
 seconds, or make a button spin and grow on hover. Everything is a pure function (no signals or tasks), so you can use it

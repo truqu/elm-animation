@@ -1,13 +1,13 @@
 {
     "version": "1.0.5",
     "summary": "Easy but powerful animation of values over time",
-    "repository": "https://github.com/mgold/elm-animation.git",
+    "repository": "https://github.com/truqu/elm-animation.git",
     "license": "BSD3",
     "source-directories": [
         "."
     ],
     "exposed-modules": [
-        "Animation"
+        "Animate"
     ],
     "dependencies": {
         "elm-lang/core": "5.0.0 <= v < 6.0.0"
